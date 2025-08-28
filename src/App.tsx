@@ -1,8 +1,11 @@
+import { Button, HStack } from '@chakra-ui/react';
+
 function App() {
   return (
-    <div>
-      <h1>GameZone</h1>
-    </div>
+    <HStack>
+      <Button>Click me</Button>
+      <Button>Click me</Button>
+    </HStack>
   );
 }
 
