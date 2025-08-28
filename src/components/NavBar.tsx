@@ -1,15 +1,12 @@
-import { HStack, Image, Text, Spacer } from '@chakra-ui/react';
+import { HStack, Image } from '@chakra-ui/react';
 import { ColorModeButton } from '@/components/ui/color-mode';
 import logo from '@/assets/gamezone.png';
 
 const NavBar = () => {
   return (
-    <HStack padding="10px">
+    <HStack padding="10px" justifyContent={'space-between'}>
       <Image src={logo} boxSize="60px" />
-      <Text fontSize="xl" fontWeight="bold">
-        GameZone
-      </Text>
-      <Spacer />
+
       <ColorModeButton />
     </HStack>
   );
