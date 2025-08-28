@@ -1,5 +1,6 @@
 import { Grid, GridItem, Box, Text } from '@chakra-ui/react';
 import NavBar from './components/NavBar';
+import GameGrid from './components/GameGrid';
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
         <Text fontSize="2xl" fontWeight="bold" color="text" marginBottom="4">
           Popular Games
         </Text>
-        <Text color="text.muted">Game content will appear here...</Text>
+
+        <GameGrid />
       </GridItem>
     </Grid>
   );
